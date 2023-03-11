@@ -1,0 +1,7 @@
+begin
+numeric mark1,mark2,mark3,total,avg
+print("enter marks")
+input mark1,mark2,mark3
+total=mark1+mark2+mark3
+avg=total/3
+end

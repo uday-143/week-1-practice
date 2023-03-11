@@ -1,0 +1,12 @@
+begin
+input num1
+print("enter the number")
+if (num/2=0)
+{
+print("enter it is even num")
+}
+else
+{
+print("enter it is odd")
+}
+end

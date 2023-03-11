@@ -1,0 +1,8 @@
+begin
+numeric salary,shoppingbill1,shoppingbill2,shoppingbill3,total,percentage
+input saalary,shoppingbill1,shoppingbill2,shoppingbill3
+total=shoppingbill1+shoppingbill2+shoppingbill3
+percentage=(total*100)/salary
+print("total")
+print("percentage")
+end
