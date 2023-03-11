@@ -1,0 +1,20 @@
+order management system
+
+1.customer sitting on the chair.
+2.pick the menu card on the table and place the order.
+3.order delivers to the database system.
+4.order serve to the guest.
+5.system caluculates the order's total cost.
+6.payment process.
+
+
+kitchen management system
+
+
+1. order is placed and confirmed and displayed on the kitchen screen.
+2. order is being analyzed by the head chef.
+3. order is then distributed among co chefs.
+4. the food preparation starts.
+5. the plating is done and ready to serve.
+
+
