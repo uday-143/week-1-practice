@@ -1,0 +1,154 @@
+1) write a program to print 1-10 numbers
+
+begin
+numeric num=1
+while(num<=10)
+{
+print(num)
+}
+num++
+end
+
+
+2) write a program to print 10-1 numbers
+
+begin
+numeric num=10
+while(num<=10)
+{
+print(num)
+}
+num--
+end
+
+4) wrie a program to print 1-n numbers
+
+begin
+numeric num=1
+while(num<=n)
+{
+if(num%2==0)
+{
+print(num)
+}
+num++
+}
+end
+
+5) write a program to print odd numbers between 1-n
+
+begin
+numeric num=1
+while(nnum<=n)
+{
+if(num52!==0)
+{
+print(num)
+}
+num++
+}
+end
+
+6) write a program to print the start and stop value
+
+begin
+numeric startvalue,stopvalue
+print("enter startvalue and stopvalue")
+input startvalue,stopvalue
+while(startvalue<=stopvalue)
+{
+print("startvalue")
+startvalue++-
+}
+end
+
+print the middle value
+
+begin
+numeric startvalue,stopvalue,n
+print("enter the startvalue")
+input startvalue
+print("enter the stopvalue")
+input stopvalue
+while(stopvalue<=10)
+{
+s=stopvalue-startvalue/2
+print(s)
+}
+end
+
+7) write a program to print factors of a given number
+
+begin
+numeric num,i=1
+print("enter the num")
+input num
+while(i<=num)
+{
+if(num%i==0)
+{
+print(i)
+}
+i++
+}
+end
+
+8) write a program to find number of factors of a given number
+
+begin
+numeric num,i=1,count=0
+print("enter the num")
+input num
+while(i<=num)
+{
+if(num%i==0)
+{
+print(i)
+count=count+1
+}
+i++
+print(count)
+}
+end
+
+9) write to check given number id prime or not
+
+
+begin
+numeric n,i=1,count=0
+while(n>1)
+{
+if(n%i==0)
+{
+count=count+1
+i++
+}
+if(count=2)
+{
+print("it is prime number")
+}
+else
+{
+print("it is not prime number")
+}
+}
+end
+
+10) write to check given number armstrong number or not
+
+begin
+numeric num,r,sum=0,temp
+print("enter the num")
+input sum=0
+temp=num
+while(num>0)
+{
+r=num%10
+sum=sum+(r*r*r)
+num=num/10
+}
+if(temp==sum)
+print("it is armstrong number")
+else
+print("it is not armstrong number")
+end
