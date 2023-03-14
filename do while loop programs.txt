@@ -1,0 +1,71 @@
+1) write a program to print 1-10 numbers
+
+
+begin
+numeric num=1
+do
+{
+print("num")
+num++
+}
+while(num<=10);
+end
+
+2) write a program to print 10-1 numbers
+
+begin
+numeric num=10
+do
+{
+print(num)
+num--
+}
+while(num<=10);
+end
+
+3) write a program to print 1-n numbers
+
+
+begin
+numeric num=1
+do
+{
+print(num)
+num++
+}
+while(num<=n);
+end
+
+4) write a program even numbers between 1-n
+
+begin
+numeric n,i=1
+print("enter the num")
+input num
+do
+{
+if(i%2==0)
+{
+print(i)
+}
+i++
+}
+while(i<=n);
+end
+
+5) write a program odd numbers between 1-n
+
+begin
+numeric n,i=1
+print("enter the num")
+input num
+do
+{
+if(i%2!=0)
+{
+print(i)
+}
+i++
+}
+while(i<n)
+end
